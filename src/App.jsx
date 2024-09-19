@@ -11,7 +11,7 @@ function App() {
 
   async function searchCity() {
     const city = inputRef.current.value
-    const key = '03fb4e94c5ec1d07d9e5eec4fb182868'
+    const key = '<<USER_API_KEY>>'
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=&units=metric`
     const url5Days = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=&units=metric` 
 
